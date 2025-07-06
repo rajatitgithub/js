@@ -69,3 +69,4 @@ let gameCounter = 100;
 gameCounter++;
 console.log(gameCounter);
 
+//https://tc39.es/ecma262/#sec-toprimitive
