@@ -29,10 +29,43 @@ let booleanLoggedIn = Boolean(isLoggedIn)
 
 let someNum = true;
 let stringNum = String(someNum);
-console.log(stringNum);
-console.log(typeof stringNum);
+// console.log(stringNum);
+// console.log(typeof stringNum);
 
 // 33 => 33 , convert in  string
 // null => null
 // undefined => undefined
 // true => true , false => false
+
+// ****************  operations  **********************************
+
+let num = 13
+let negNum = -num
+
+// console.log(negNum);
+
+// Arithmetic operations
+
+// console.log(2+2);   //add 
+// console.log(2-7);   //sub 
+// console.log(2*2);   //multiply 
+// console.log(2**3);  //power
+// console.log(2/3);   //devide
+// console.log(2%3);   //reminder 
+
+let str1 = "Hello"
+let str2 = " Daddy "
+// console.log(str1 + str2);
+
+// console.log("1" + 2);       // here it is following ToPremitive concept where first value decide
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+
+// prefix or postfix increment
+let gameCounter = 100;
+++gameCounter;
+gameCounter++;
+console.log(gameCounter);
+
