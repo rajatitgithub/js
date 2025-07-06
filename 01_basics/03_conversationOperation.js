@@ -63,10 +63,23 @@ let str2 = " Daddy "
 // console.log(1 + 2 + "2");
 
 
-// prefix or postfix increment
-let gameCounter = 100;
-++gameCounter;
-gameCounter++;
-console.log(gameCounter);
+//  // prefix or postfix increment
+// let gameCounter = 100;
+// ++gameCounter;
+// gameCounter++;
+// console.log(gameCounter);
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
 
 //https://tc39.es/ecma262/#sec-toprimitive
