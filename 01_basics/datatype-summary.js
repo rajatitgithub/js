@@ -35,3 +35,32 @@ const myFunc = function() {
     console.log("Hello World!");
     
 }
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(Primitive) and Heap(Non primitive) memory
+// stack use copy of data and heap used reference of data 
+let channel = "RajatYadavdotcom"
+let anotherchannel = channel
+
+console.log(anotherchannel);
+
+anotherchannel = "hiteshyoutubedotcom"
+
+console.log(channel);
+console.log(anotherchannel);
+
+let user1 = {
+    email: "rajat@gmail.com",
+    age: 23
+}
+
+let user2 = user1
+console.log(user1.email);
+console.log(user2.email);
+
+user2.email = "daddy@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
